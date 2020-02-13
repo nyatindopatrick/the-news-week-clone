@@ -1,0 +1,65 @@
+.story-type {
+  font-size: 1rem !important;
+  color: grey;
+}
+
+.container {
+  max-width: 85% !important;
+}
+
+.top-header {
+  height: 6rem !important;
+  background: #f72210;
+}
+
+.fas {
+  line-height: unset !important;
+}
+
+.btn {
+  border-radius: 0 !important;
+}
+
+.nav-list {
+  margin-top: -1rem;
+}
+
+.card {
+  border: none !important;
+  font-size: 0.9rem;
+}
+
+.category {
+  margin-top: -32px;
+}
+
+.opinion {
+  font-size: 0.8rem;
+}
+
+.btn-meteor {
+  background: rgb(155, 204, 211) !important;
+  font-size: 0.8rem !important;
+  width: 40%;
+}
+
+.card-bordered {
+  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+
+.newsletter {
+  background: #f72210;
+}
+.newsletter-text h5 {
+  font-size: 1.7vmin !important;
+}
+
+.main-news {
+  max-height: 3640px;
+}
+.main-news::-webkit-scrollbar {
+  display: none;
+}
+.main-news {
+  -ms-overflow-style: none;
+}
