@@ -52,6 +52,7 @@
 .newsletter {
   width: 3rem !important;
 }
+
 .newsletter-text h5 {
   font-size: 1.7vmin !important;
 }
@@ -59,13 +60,12 @@
 .main-news-opinion,
 .main-news {
   max-height: 2970px;
+  -ms-overflow-style: none;
 }
+
 .main-news::-webkit-scrollbar,
 .main-news-opinion::-webkit-scrollbar {
   display: none;
-}
-.main-news {
-  -ms-overflow-style: none;
 }
 
 .in-the-mag {
@@ -83,7 +83,8 @@
 }
 
 .starting-five {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+  background:
+    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
     50% 90% no-repeat;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.125) !important;
@@ -92,6 +93,7 @@
 .footer-logo img {
   width: 236px !important;
 }
+
 .copyright {
   line-height: unset !important;
 }
@@ -113,6 +115,7 @@ footer li {
   flex-direction: column !important;
   margin-left: 1.6rem !important;
 }
+
 .latest-news img {
   width: 8rem !important;
   height: 6rem;
@@ -121,12 +124,13 @@ footer li {
 .news-logo {
   width: 15rem;
 }
-.phone{
+
+.phone {
   width: 200px !important;
   height: 100%;
 }
 
-@media (max-width:1320px){
+@media (max-width: 1320px) {
   .container {
     max-width: 100% !important;
   }
@@ -136,9 +140,11 @@ footer li {
   .container {
     max-width: 100% !important;
   }
+
   .main-news {
     max-height: 3170px;
   }
+
   .main-news-opinion {
     max-height: 100%;
   }
@@ -146,17 +152,21 @@ footer li {
   .footer-logo img {
     width: 236px !important;
   }
+
   .icons {
     width: 100%;
   }
+
   .top-header {
     height: 3.4rem !important;
     background: #f72210;
   }
+
   .news-logo {
     width: 12rem;
   }
-  .phone{
+
+  .phone {
     width: 400px !important;
     height: 100%;
   }
@@ -166,19 +176,24 @@ footer li {
   .container {
     max-width: 100% !important;
   }
+
   .naigation-items {
     display: none !important;
   }
+
   .date-sec {
     display: none !important;
   }
+
   .main-news {
     max-height: 100%;
   }
+
   .main-news-opinion {
     max-height: 100%;
     padding-left: 2rem !important;
   }
+
   .editions {
     flex-wrap: wrap !important;
   }
@@ -186,17 +201,21 @@ footer li {
   .footer-logo img {
     width: 236px !important;
   }
+
   .icons {
     width: 100%;
     margin-top: 2.5rem !important;
   }
+
   .copyright {
     width: 100% !important;
   }
+
   .sign-in,
   .sign-in h4 {
     font-size: 0.7rem !important;
   }
+
   .sign-in {
     margin-top: -2.2rem;
   }
@@ -205,15 +224,16 @@ footer li {
     height: 3.4rem !important;
     background: #f72210;
   }
+
   .news-logo {
     width: 10rem;
   }
+
   .in-depth {
     text-align: center;
   }
 
-
-  .phone{
+  .phone {
     width: 100% !important;
     height: 19rem !important;
   }
