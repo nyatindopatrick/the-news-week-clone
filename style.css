@@ -86,7 +86,8 @@
 }
 
 .starting-five {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+  background:
+    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
     50% 90% no-repeat;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.125) !important;
@@ -129,7 +130,7 @@ footer li {
 
 .phone {
   width: 200px !important;
-  height: 100%;
+  height: 242px;
 }
 
 @media (max-width: 1320px) {
@@ -165,8 +166,12 @@ footer li {
   }
 
   .phone {
-    width: 200px !important;
-    height: 100%;
+    width: 140px !important;
+    height: 354px;
+  }
+
+  .snup {
+    max-height: 354px;
   }
 }
 
@@ -175,9 +180,6 @@ footer li {
     max-width: 100% !important;
   }
 
-  .sign-in {
-    display: block !important;
-  }
   .navigation-items {
     display: none !important;
   }
@@ -188,12 +190,12 @@ footer li {
 
   .main-news {
     max-height: 100%;
+    overflow: hidden !important;
   }
 
   .main-news-opinion {
     max-height: 100%;
     padding-left: 2rem !important;
-
   }
 
   .editions {
@@ -213,13 +215,14 @@ footer li {
     width: 100% !important;
   }
 
-  .sign-in,
   .sign-in h4 {
     font-size: 0.7rem !important;
   }
 
   .sign-in {
     margin-top: 1.2rem;
+    font-size: 0.7rem !important;
+    display: block !important;
   }
 
   .top-header {
@@ -237,14 +240,25 @@ footer li {
 
   .phone {
     width: 100% !important;
-    height: 19rem !important;
+    height: 100% !important;
   }
 
   .sub-btn {
     font-size: 0.6rem !important;
   }
 
-  .main-news {
-    overflow: hidden !important;
+  .subscribe-pic {
+    width: 200px !important;
+  }
+
+  .subscriber img,
+  .subscriber button {
+    display: flex;
+    margin-left: 40%;
+  }
+
+  .subscriber h4,
+  .subscriber p {
+    text-align: center;
   }
 }
