@@ -1,9 +1,11 @@
-
 .story-type {
   font-size: 1rem !important;
   color: grey;
 }
 
+.navigation-items {
+  background: white;
+}
 .container {
   max-width: 85% !important;
 }
@@ -83,8 +85,7 @@
 }
 
 .starting-five {
-  background:
-    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
     50% 90% no-repeat;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.125) !important;
@@ -122,7 +123,7 @@ footer li {
 }
 
 .news-logo {
-  width: 15rem;
+  width: 25rem;
 }
 
 .phone {
@@ -149,10 +150,6 @@ footer li {
     max-height: 100%;
   }
 
-  .footer-logo img {
-    width: 236px !important;
-  }
-
   .icons {
     width: 100%;
   }
@@ -167,7 +164,7 @@ footer li {
   }
 
   .phone {
-    width: 400px !important;
+    width: 200px !important;
     height: 100%;
   }
 }
@@ -177,7 +174,7 @@ footer li {
     max-width: 100% !important;
   }
 
-  .naigation-items {
+  .navigation-items {
     display: none !important;
   }
 
@@ -236,5 +233,8 @@ footer li {
   .phone {
     width: 100% !important;
     height: 19rem !important;
+  }
+  .sub-btn{
+    font-size: 0.6rem !important;
   }
 }
