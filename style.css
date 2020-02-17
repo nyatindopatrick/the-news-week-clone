@@ -6,6 +6,7 @@
 .navigation-items {
   background: white;
 }
+
 .container {
   max-width: 85% !important;
 }
@@ -85,7 +86,8 @@
 }
 
 .starting-five {
-  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
+  background:
+    url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5)
     50% 90% no-repeat;
   background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.125) !important;
@@ -234,7 +236,8 @@ footer li {
     width: 100% !important;
     height: 19rem !important;
   }
-  .sub-btn{
+
+  .sub-btn {
     font-size: 0.6rem !important;
   }
 }
