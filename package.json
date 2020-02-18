@@ -1,0 +1,23 @@
+{
+  "name": "the-news-week-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyatindopatrick/the-news-week-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyatindopatrick/the-news-week-clone/issues"
+  },
+  "homepage": "https://github.com/nyatindopatrick/the-news-week-clone#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
